@@ -1,0 +1,19 @@
+##OpenGL GLIB
+
+
+Perspective 90
+LookAt 0 0 3  0 0 0  0 1 0
+
+##Obj bunny010n.obj
+
+
+Vertex   bunny.vert
+Fragment bunny.frag
+Geometry bunny.geom
+Program  Bunny				\
+	uLevel <0. 4. 6.>		\
+	uGravity <-5. 0. 5.>	\
+	uTime <0. 2.439 50.>		\
+	uVelScale <0. 30. 50.>
+
+Obj bunny010n.obj
