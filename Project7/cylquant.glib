@@ -1,0 +1,13 @@
+##OpenGL GLIB
+Perspective 70
+LookAt  0 0 3     0 0 0    0 1 0
+
+Vertex   cylquant.vert
+Geometry cylquant.geom
+Fragment cylquant.frag
+Program  CylQuant  			\
+	 uLevel <0 3 3>			\
+	 uQuantize <1. 50. 100.>		\
+	 uColor { 1.00 0.65 0.40 }
+
+Obj bunny010n.obj
